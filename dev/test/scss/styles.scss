@@ -1,0 +1,543 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #141b23;
+}
+
+.wrapper {
+	max-width: 1600px;
+	min-width: 320px;
+	width: 100%;
+	padding: 41px 53px 56px; 
+	margin: 0 auto;
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+	color: #3c3c3c;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+	color: #797979;
+}
+
+header {
+	background-color: #ffffff;
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+
+div.logo {
+   padding: 0 5% 0 1%
+}
+
+img.logo {
+   float: left;
+    padding: 1em;
+    margin-left: 2em;
+        
+}
+header ul{
+    text-align: center;
+    float: left;
+    align-items:flex-start;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+header li {list-style-type: none;
+    display: inline-block;
+    margin: 0.8em;
+    font-size: 1.5em;
+    
+    }
+    
+    
+    li a { 
+        color: #3c3c3c;
+        text-decoration: none;
+        border-radius: 3px;
+       }
+    
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    }
+
+
+
+header div.social {
+    padding: 1em 1em;
+    float: right;
+    text-align: right;
+   }
+    
+.block1 {
+    
+}
+
+/*#slider-container{
+    position: relative;
+    height: 600px;
+    width: 1500px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.slides {
+    height: 100%;
+    position: relative;
+    li {
+        display: table;
+        float: left;
+        height: 100%;
+        
+    div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 3em;
+        }
+    }
+}*/
+
+
+
+
+.block2 {
+    background-color: #ffffff;
+    display: flex;
+    padding: 3% 10% 3% 10%;
+    justify-content: space-around;
+}
+
+.block2 h2{
+    flex-basis: 30%;
+    padding: 0 3%;
+    text-align: right;
+}
+.block2 p{
+    flex-basis: 60%;
+}
+
+
+.block3 {
+    flex-wrap: nowrap;
+
+    background: linear-gradient(to bottom, #fafafa, #fff);
+    display: flex;
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+    
+}
+
+
+
+.block3 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.block3 li {
+    flex-wrap: nowrap;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 1em;
+   
+    }
+
+
+.block4 {
+    background-color: #f6f6f6;
+    padding: 5% 10% 5% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+div.allcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 1%;
+}
+
+div.card {
+    background-color: #ffffff;
+    margin: 0.5em;
+    width: 25%;
+    padding: 0;
+    
+}
+
+div.card img {
+    width: 100%;
+}
+
+button.butShowHide {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    font-size: 120%;
+    color: #fff;
+    font-weight: bolder;
+   
+}
+
+.block5 {
+    
+    background: #ffffff;
+    text-align: center;
+}
+
+.more {
+display: flex;
+padding: 1% 5% 1% 5%;
+align-items: center;
+justify-content: space-around;
+background-color: #f3f2f2;
+align-items: baseline;
+}
+
+.block6 {
+   
+}
+
+.block7 {
+    padding: 3% 10% 3% 10%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block7 img {
+    height: 100%;
+    
+}
+
+footer {
+    display: flex;
+    background: #303030;
+    width: 100%;
+    color: #fff;
+    padding: 1% 1% 1% 5%;
+    justify-content: space-around;
+    word-wrap: break-word;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+div.footer-menu {
+    display:flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    
+}
+
+div.footer-menu li {
+    margin: 3px;
+    
+}
+div.footer-menu li a {
+    color: white;
+    
+}
+
+
+ul.navigation {
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 0;
+    margin: 0 4%;
+    list-style: none;
+    
+}
+
+ul.for_clients {
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 0;
+    list-style: none;
+    margin: 0 4%;
+}
+
+ul.contact_us {
+    display:flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 0;
+    list-style: none;
+    margin: 0 4%;
+}
+
+
+
+footer span {
+    font-size: 140%;
+    
+}
+
+/*/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+        div.logo {
+           padding: 0 4% 0 1%
+        }
+        img.logo {
+           float: left;
+            padding: 1em;
+            margin-left: 1.5em;
+        }  
+        header li {list-style-type: none;
+            display: inline-block;
+            margin: 0.6em;
+            font-size: 1.2em;
+        }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+        div.logo {
+           padding: 0 3% 0 1%
+        }
+        img.logo {
+           float: left;
+            padding: 1em;
+            margin-left: 1em;
+        } 
+        header li {list-style-type: none;
+            display: inline-block;
+            margin: 0.3em;
+            font-size: 0.8em;
+        }
+}
+    
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+        div.logo {
+           padding: 0 2% 0 1%
+        }
+        img.logo {
+           float: left;
+            padding: 1em;
+            margin-left: 0.5em;
+        } 
+        header div.social img {
+                height: 15%;
+                width: 15%;
+            }
+        
+        .block7 img {
+            height: 25%;
+            width: 25%;
+        }
+    .block7 h2 {
+        font-size: 50%;
+    }
+    footer img.flogo {
+        
+        margin: 2% 0;
+    } 
+    footer .social img {
+        display: none;
+    }
+        div.footer-menu {
+            font-size: 0.8em;
+        }
+        footer {
+            margin: 0;
+            padding: 0;
+        }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+        div.logo {
+           padding: 0 1% 0 1%
+        }
+        img.logo {
+           float: left;
+            padding: 1em;
+            margin-left: 0.5em;
+        } 
+        header div.social {
+            visibility: hidden;
+        }
+}
+
+
+
+
+@media screen and (max-width: 715px) {
+	.nav {
+		position: relative;
+		min-height: 40px;
+        z-index: 3;
+	}	
+	 ul.nav {
+		width: 100px;
+		padding: 5px 0;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		border: solid 1px #aaa;
+		background: #FAFAFA no-repeat 10px 11px;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	}
+	.nav li {
+		display: none; /* скрыть все <li> пункты */
+		margin: 0;
+	}
+	.nav .current {
+		display: block; /* показывать только текущие активные <li> пункты */
+	}
+	.nav a {
+		display: block;
+		padding: 5px 5px 5px 5px;
+		text-align: left;
+	}
+	.nav .current a {
+		background: none;
+		color: #666;
+	}
+ 
+	/* при наведении на пункты меню */
+	 ul.nav:hover {
+		background-image: none;
+	}
+	 ul.nav:hover li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.nav:hover .current {
+		background: url(images/icon-check.png) no-repeat 10px 7px;
+	}
+ 
+	/* адаптивное меню справа */
+	 ul.nav.right {
+		left: auto;
+		right: 0;
+	}
+ 
+	/* адаптивное меню по центру */
+	ul.nav.center {
+		left: 50%;
+		margin-left: -90px;
+	}
+    
+    div.card img {
+    visibility: collapse;
+}
+    header img.logo {
+           float: left;
+            padding: 1em;
+            margin-left: 2em;
+            height: 50%;
+            width: 50%;
+        }
+ 
+}
+
+
+
+
+
+    /* jssor slider loading skin oval css */
+
+        .jssorl-oval img {
+            animation-name: jssorl-oval;
+            animation-duration: 1.2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-oval {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('images/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        .jssora22l.jssora22lds      (disabled)
+        .jssora22r.jssora22rds      (disabled)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('images/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+
+
+
+
+
+
+
+
